@@ -1,2 +1,2 @@
 # py-insightcyber
-The Official Python Repository for InsightCyber
+The Official InsightCyber package for Python
