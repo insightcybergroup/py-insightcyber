@@ -1,6 +1,6 @@
 [project]
 name = "insightcyber"
-version = "0.1.3"
+version = "0.1.4"
 description = "The official InsightCyber package for Python"
 authors = [{name="Francis Cianfrocca"}]
 readme = "README.md"
@@ -13,7 +13,7 @@ classifiers = [
 ]
 dependencies = [
 	"requests",
-	"configprser",
+	"configparser",
 	"python-dateutil"
 ]
 keywords = ["cybersecurity","industrial","OT"]
