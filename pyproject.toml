@@ -1,6 +1,6 @@
 [project]
 name = "insightcyber"
-version = "0.1.1"
+version = "0.1.2"
 description = "The official InsightCyber package for Python"
 authors = [{name="Francis Cianfrocca"}]
 readme = "README.md"
