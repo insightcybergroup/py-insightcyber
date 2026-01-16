@@ -1,2 +1,2 @@
-# py-insightcyber
+# insightcyber
 The Official InsightCyber package for Python
