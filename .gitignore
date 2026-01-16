@@ -1,0 +1,8 @@
+src/insightcyber.egg-info
+src/insightcyber/__pycache__
+dist/
+build/
+*.pyc
+
+docs/_build
+docs/.doctrees

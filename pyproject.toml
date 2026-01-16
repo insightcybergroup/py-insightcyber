@@ -1,0 +1,34 @@
+[project]
+name = "insightcyber"
+version = "0.1.1"
+description = "The official InsightCyber package for Python"
+authors = [{name="Francis Cianfrocca"}]
+readme = "README.md"
+requires-python = ">=3.8"
+license = "GPL-3.0-or-later"
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Operating System :: OS Independent",
+	"Development Status :: 4 - Beta",
+]
+dependencies = [
+	"requests",
+	"python-dateutil"
+]
+keywords = ["cybersecurity","industrial","OT"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+"Homepage" = "https://github.com/insightcybergroup/py-insightcyber"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+insightcyber = "insightcyber.cli:main"
