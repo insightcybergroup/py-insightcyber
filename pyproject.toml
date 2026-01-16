@@ -13,7 +13,6 @@ classifiers = [
 ]
 dependencies = [
 	"requests",
-	"hashlib",
 	"configprser",
 	"python-dateutil"
 ]
